@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download the data
-`wget https://www.encodeproject.org/files/ENCFF015GRH/@@download/ENCFF015GRH.bam`
+wget https://www.encodeproject.org/files/ENCFF015GRH/@@download/ENCFF015GRH.bam
 
 # Subset and rename
 module load StdEnv/2020 samtools/1.16.1
