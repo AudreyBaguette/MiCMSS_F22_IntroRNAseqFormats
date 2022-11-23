@@ -9,7 +9,7 @@ A nucleotide FASTA file of *HBG2* ad *HBG1* was created from the UCSC GenomeBrow
 A protein FASTA file of the human hemoglobin was obtained from the Protein Data Bank (https://www.rcsb.org/structure/1HV4).
 
 `wget https://www.rcsb.org/fasta/entry/1HV4`
-ls -lh D    
+
 ## FASTQ files
 * left_ventricle_34m_100_rep1_R1.fastq
 * left_ventricle_34m_100_rep1_R2.fastq
