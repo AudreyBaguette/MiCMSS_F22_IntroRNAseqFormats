@@ -1,0 +1,4 @@
+https://www.encodeproject.org/files/ENCFF116ZJP/@@download/ENCFF116ZJP.fastq.gz
+https://www.encodeproject.org/files/ENCFF122ILY/@@download/ENCFF122ILY.fastq.gz
+https://www.encodeproject.org/files/ENCFF850ZLY/@@download/ENCFF850ZLY.fastq.gz
+https://www.encodeproject.org/files/ENCFF897IUQ/@@download/ENCFF897IUQ.fastq.gz

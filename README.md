@@ -58,10 +58,17 @@ To copy a file from the server to the computer, use `get filename`, where filena
 5. The file should now be on your computer, and if you open it, it should read 'Hello World'.
    
 ## Data
-The data we will use in this workshop comes from ENCODE and has been processed with the GenPipes pipeline (https://genpipes.readthedocs.io/en/latest/user_guide/pipelines/gp_rnaseq.html). All necessary files are in the data folder.
+* DNA.fasta
+* 1HV4
+* left_ventricle_34m_100_rep1_R1.fastq
+* left_ventricle_34m_100_rep1_R2.fastq
+* brain_66f_100_rep1_R1.fastq
+* brain_66f_100_rep1_R2.fastq
+* left_ventricle_34m_chr11.bam
+The data we will use in this workshop comes from ENCODE and has been processed by their pipelines. All necessary files are in the data folder. The details on how to download them from ENCODE is also included there.
 You can put it in your space on the server with one of these 4 ways:
-1. Download the data on you computer, then upload it on the server with sftp
-2. Download the data directly on the server with `wget`. For exmaple, `wget [link]` will download the first dataset
+1. Clone the git repository in the server.
+2. Download the data directly on the server, following the instructions.
 3. Copy the files from my folder to yours `cp /home/aubag1/MiCMSS_W22_IntroRNAseqFormats/data .`
 4. Create a symbolic link to my folder in your space. This will not copy the files, but simply make a "reference" to their location `ln -s /home/aubag1/MiCMSS_W22_IntroRNAseqFormats/data .`
 
@@ -80,7 +87,7 @@ You can put it in your space on the server with one of these 4 ways:
     - Wig and bigWig 
     - Bed and bedGraph 
     - Liftover to change reference 
-    - Hands on: Lifting genes with the liftovertool and visualization with the UCSC Genome Browser (10 min) 
+    - Hands on: Lifting genes with the liftover tool (10 min) 
 
 ## References
    
