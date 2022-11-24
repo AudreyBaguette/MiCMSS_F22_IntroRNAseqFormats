@@ -62,15 +62,24 @@ To copy a file from the server to the computer, use `get filename`, where filena
 * 1HV4
 * left_ventricle_34m_100_rep1_R1.fastq
 * left_ventricle_34m_100_rep1_R2.fastq
-* brain_66f_100_rep1_R1.fastq
-* brain_66f_100_rep1_R2.fastq
 * left_ventricle_34m_chr11.bam
-The data we will use in this workshop comes from ENCODE and has been processed by their pipelines. All necessary files are in the data folder. The details on how to download them from ENCODE is also included there.
-You can put it in your space on the server with one of these 4 ways:
-1. Clone the git repository in the server.
-2. Download the data directly on the server, following the instructions.
-3. Copy the files from my folder to yours `cp /home/aubag1/MiCMSS_W22_IntroRNAseqFormats/data .`
-4. Create a symbolic link to my folder in your space. This will not copy the files, but simply make a "reference" to their location `ln -s /home/aubag1/MiCMSS_W22_IntroRNAseqFormats/data .`
+* left_ventricle_34m_minus.bigWig
+* left_ventricle_34m_plus.bigWig
+* left_ventricle_34m_minus.wig
+* left_ventricle_34m_minus.bedGraph
+wget -O left_ventricle_34m_plus.bigWig
+The data we will use in this workshop comes from ENCODE and has been processed by their pipelines. All necessary files are in the data folder, on the server. They are not included in the Data folder of the repository, because some of them were too big to be included. The details on how to download them from ENCODE is also included in the Scripts folder.
+
+You can put the data in your space on the server with one of these 3 ways:
+* The easy ways
+1. Copy the files from my folder to yours `cp /home/aubag1/MiCMSS_W22_IntroRNAseqFormats/data .`
+OR
+2. Create a symbolic link to my folder in your space. This will not copy the files, but simply make a "reference" to their location `ln -s /home/aubag1/MiCMSS_W22_IntroRNAseqFormats/data .`
+What is the difference between copying and creating a symbolic link? The `cp` command replicates the file in its entirety. This means that if 30 students copy a 1Gb file on their space, the files will take 31Gb (original + 30 copies) of space in total. Modifying your local copy will not change the original file. The `ln -s` command creates a shortcut to the path of the original file. This means that there will still be only one copy of the file in total, but it also means that changing the file through the symbolic link will change the original.
+
+* The "hard" way, if you want a bit of a challenge.
+Clone the git repository in the server. Download the data directly on the server, following the instructions in the README file of the Data folder.
+
 
 ## Outline
 * Raw sequence files: fasta and fastq (25 min)
