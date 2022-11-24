@@ -94,7 +94,8 @@ Clone the git repository in the server. Download the data directly on the server
 
 * Files for genomic regions analysis (30 min) 
     - Wig and bigWig 
-    - Bed and bedGraph 
+    - bedGraph 
+    - Bed and bigBed
     - Liftover to change reference 
     - Hands on: Lifting genes with the liftover tool (10 min) 
 
