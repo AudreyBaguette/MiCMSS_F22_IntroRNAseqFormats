@@ -83,22 +83,32 @@ Clone the git repository in the server. Download the data directly on the server
 
 
 ## Outline
-* Raw sequence files: fasta and fastq (25 min)
+* Introduction (10 min)
+    - NGS platforms
+    - Single End vs Paired End sequencing
+    - Stranded vs unstranded library prep
+    - Adapters and PCR
+
+* Raw sequence files: fasta and fastq (15 min)
     - Fasta vs fastq: what is the difference?
     - Decoding fastq quality scores
     - Hands on: Cutting a read at Q30 (5 min) 
 
-* Aligning reads (20 min) 
+* Aligning reads (25 min) 
     - How to choose the reference? 
-    - SAM vs BAM format 
+    - Downloading a reference genome
+    - SAM vs BAM format
+    - CIGAR, MAPQ and Sam flags
     - Hands on: converting between formats (5 min) 
 
 * Files for genomic regions analysis (30 min) 
     - Wig and bigWig 
     - bedGraph 
     - Bed and bigBed
+    - gft
+    - Formats along the genome
     - Liftover to change reference 
-    - Hands on: Lifting genes with the liftover tool (10 min) 
+    - Hands on: Lifting genes with the liftover tool (5 min) 
 
 ## References
    
