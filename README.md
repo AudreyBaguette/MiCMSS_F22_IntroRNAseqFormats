@@ -68,8 +68,8 @@ To copy a file from the server to the computer, use `get filename`, where filena
 * left_ventricle_34m_minus.wig
 * left_ventricle_34m_minus.bedGraph
 * genes_hg38_chr11.bed
-wget -O left_ventricle_34m_plus.bigWig
-The data we will use in this workshop comes from ENCODE and has been processed by their pipelines. All necessary files are in the data folder, on the server. They are not included in the Data folder of the repository, because some of them were too big to be included. The details on how to download them from ENCODE is also included in the Scripts folder.
+
+The data we will use in this workshop comes from ENCODE and has been processed by their pipelines. All necessary files are in the Data folder, on the server. They are not included in the Data folder of the repository, because some of them were too big to be included. The details on how to download them from ENCODE is also included in the Scripts folder.
 
 You can put the data in your space on the server with one of these 3 ways:
 * The easy ways
