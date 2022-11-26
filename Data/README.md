@@ -32,8 +32,9 @@ The bigWig files contain the reads aligned to the minus or plus strands, from th
 
 The commands used to download and transform the files are included in `Scripts/wig_download.sh`.
 
-## bed file
+## bed adn gtf files
 * genes_hg38_chr11.bed
+* genes_hg38_chr11.gtf
 The bed file contains the gene annotation of chromosome 11, for the hg38 alignment.
 
-The commands used to download and subset the file are included in `Scripts/bed_download.sh`.
+The commands used to download and subset the files are included in `Scripts/bed_download.sh` and `Scripts/gtf_download.sh`.
