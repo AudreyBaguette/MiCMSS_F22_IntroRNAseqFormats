@@ -1,2 +1,11 @@
 *.pptx
 *.Rhistory
+*.png
+Data/left_ventricle_34m_100_rep1_R1.fastq
+Data/left_ventricle_34m_100_rep1_R2.fastq
+Data/left_ventricle_34m_chr11.bam
+Data/left_ventricle_34m_chr11.bam.bai
+Data/left_ventricle_34m_minus.bedGraph
+Data/left_ventricle_34m_minus.bigWig
+Data/left_ventricle_34m_minus.wig
+Data/left_ventricle_34m_plus.bigWig
